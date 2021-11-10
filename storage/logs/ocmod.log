@@ -1,0 +1,1218 @@
+2021-11-05 22:19:37 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+2021-11-09 4:27:07 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Opencart non ftp request
+
+FILE: admin/controller/marketplace/install.php
+CODE: if ($safe) {
+LINE: 165
+CODE: if (is_dir($file) && !is_dir($path)) {
+LINE: 221
+----------------------------------------------------------------
+2021-11-09 4:28:15 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Olive theme
+
+FILE: catalog/controller/checkout/cart.php
+CODE: $this->language->get('text_items')
+LINE: 372
+LINE: 471
+
+FILE: catalog/controller/common/cart.php
+CODE: $this->language->get('text_items')
+LINE: 49
+
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 95
+
+FILE: system/library/cart/cart.php
+CODE: if ($product_discount_query->num_rows) {
+LINE: 182
+CODE: if ($product_special_query->num_rows) {
+LINE: 193
+CODE: if ($product_query->num_rows && ($cart['quantity'] > 0)) {
+LINE: 46
+CODE: if ($option_value_query->row['price_prefix'] == '+') {
+LINE: 61
+LINE: 106
+CODE: $recurring_query = $this->db->query("SELECT
+LINE: 276
+
+FILE: catalog/model/catalog/product.php
+CODE: => $product_option_value['weight'],
+LINE: 358
+
+FILE: catalog/controller/product/product.php
+CODE: $data['options'] = array();
+LINE: 350
+CODE: $product_option_value_data[] = array(
+LINE: 377
+CODE: $product_option_value_data[] = array(
+LINE: 379
+
+FILE: admin/view/template/common/footer.twig
+CODE: {{ text_footer }}
+LINE: 0
+
+FILE: catalog/controller/common/footer.php
+CODE: public function index() {
+LINE: 15
+
+FILE: catalog/controller/product/category.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/product/compare.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+LINE: 359
+
+FILE: catalog/controller/product/search.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/product/special.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/amazon_login.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/amazon_pay.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/bestseller.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/category.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/divido_calculator.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/filter.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/google_hangouts.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/html.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/information.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/klarna_checkout_module.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/latest.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/laybuy_layout.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/paypal_smart_button.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pilibaba_button.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pp_braintree_button.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/sagepay_direct_cards.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/sagepay_server_cards.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/special.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/store.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: {{ option_value['price_prefix'] }}{{ option_value['price'] }}
+NOT FOUND - OPERATION SKIPPED!
+CODE: {{ option_value.price_prefix }}{{ option_value.price }}
+LINE: 173
+LINE: 189
+LINE: 205
+CODE: value="{{ option_value.product_option_value_id }}"
+LINE: 171
+LINE: 185
+LINE: 201
+CODE: {{option_value.price_prefix}}{{option_value.price}}
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="{{option_value.product_option_value_id}}"
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="{{ option_value['product_option_value_id'] }}"
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/hover/template/product/product.twig
+CODE: {{ option_value['price_prefix'] }}{{ option_value['price'] }}
+NOT FOUND - OPERATION SKIPPED!
+CODE: {{ option_value.price_prefix }}{{ option_value.price }}
+LINE: 91
+LINE: 107
+LINE: 123
+CODE: value="{{ option_value.product_option_value_id }}"
+LINE: 89
+LINE: 103
+LINE: 119
+CODE: {{option_value.price_prefix}}{{option_value.price}}
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="{{option_value.product_option_value_id}}"
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="{{ option_value['product_option_value_id'] }}"
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/olive/template/product/product.twig
+CODE: {{ option_value['price_prefix'] }}{{ option_value['price'] }}
+NOT FOUND - OPERATION SKIPPED!
+CODE: {{ option_value.price_prefix }}{{ option_value.price }}
+LINE: 88
+LINE: 106
+LINE: 124
+CODE: value="{{ option_value.product_option_value_id }}"
+LINE: 86
+LINE: 102
+LINE: 120
+CODE: {{option_value.price_prefix}}{{option_value.price}}
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="{{option_value.product_option_value_id}}"
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="{{ option_value['product_option_value_id'] }}"
+NOT FOUND - OPERATION SKIPPED!
+CODE: $data['products'][] = array(
+LINE: 202
+CODE: 'thumb'       => $image,
+LINE: 206
+CODE: $this->load->model('tool/image');
+LINE: 10
+CODE: $data['products'][] = array(
+LINE: 193
+CODE: 'thumb'       => $image,
+LINE: 197
+CODE: $this->load->model('tool/image');
+LINE: 8
+LINE: 65
+CODE: $data['products'][] = array(
+LINE: 120
+CODE: 'thumb'       => $image,
+LINE: 124
+CODE: $this->load->model('tool/image');
+LINE: 8
+CODE: $data['products'][] = array(
+LINE: 230
+CODE: 'thumb'       => $image,
+LINE: 234
+CODE: $this->load->model('tool/image');
+LINE: 10
+CODE: $data['products'][] = array(
+LINE: 52
+CODE: 'thumb'       => $image,
+LINE: 56
+CODE: $this->load->model('tool/image');
+LINE: 8
+CODE: $data['products'][] = array(
+LINE: 59
+CODE: 'thumb'       => $image,
+LINE: 63
+CODE: $this->load->model('tool/image');
+LINE: 8
+CODE: $data['products'][] = array(
+LINE: 59
+CODE: 'thumb'       => $image,
+LINE: 63
+CODE: $this->load->model('tool/image');
+LINE: 8
+CODE: $data['products'][] = array(
+LINE: 59
+CODE: 'thumb'       => $image,
+LINE: 63
+CODE: $this->load->model('tool/image');
+LINE: 8
+
+FILE: catalog/controller/common/home.php
+CODE: public function index() {
+LINE: 60
+CODE: public function index() {
+LINE: 38
+----------------------------------------------------------------
+MOD: Opencart non ftp request
+
+FILE: admin/controller/marketplace/install.php
+CODE: if ($safe) {
+LINE: 165
+CODE: if (is_dir($file) && !is_dir($path)) {
+LINE: 221
+----------------------------------------------------------------
+2021-11-09 4:31:37 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Olive theme
+
+FILE: catalog/controller/checkout/cart.php
+CODE: $this->language->get('text_items')
+LINE: 372
+LINE: 471
+
+FILE: catalog/controller/common/cart.php
+CODE: $this->language->get('text_items')
+LINE: 49
+
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 95
+
+FILE: system/library/cart/cart.php
+CODE: if ($product_discount_query->num_rows) {
+LINE: 182
+CODE: if ($product_special_query->num_rows) {
+LINE: 193
+CODE: if ($product_query->num_rows && ($cart['quantity'] > 0)) {
+LINE: 46
+CODE: if ($option_value_query->row['price_prefix'] == '+') {
+LINE: 61
+LINE: 106
+CODE: $recurring_query = $this->db->query("SELECT
+LINE: 276
+
+FILE: catalog/model/catalog/product.php
+CODE: => $product_option_value['weight'],
+LINE: 358
+
+FILE: catalog/controller/product/product.php
+CODE: $data['options'] = array();
+LINE: 350
+CODE: $product_option_value_data[] = array(
+LINE: 377
+CODE: $product_option_value_data[] = array(
+LINE: 379
+
+FILE: admin/view/template/common/footer.twig
+CODE: {{ text_footer }}
+LINE: 0
+
+FILE: catalog/controller/common/footer.php
+CODE: public function index() {
+LINE: 15
+
+FILE: catalog/controller/product/category.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/product/compare.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+LINE: 359
+
+FILE: catalog/controller/product/search.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/product/special.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/amazon_login.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/amazon_pay.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/bestseller.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/category.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/divido_calculator.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/filter.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/google_hangouts.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/html.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/information.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/klarna_checkout_module.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/latest.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/laybuy_layout.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/paypal_smart_button.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pilibaba_button.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pp_braintree_button.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/sagepay_direct_cards.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/sagepay_server_cards.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/special.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/store.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: {{ option_value['price_prefix'] }}{{ option_value['price'] }}
+NOT FOUND - OPERATION SKIPPED!
+CODE: {{ option_value.price_prefix }}{{ option_value.price }}
+LINE: 173
+LINE: 189
+LINE: 205
+CODE: value="{{ option_value.product_option_value_id }}"
+LINE: 171
+LINE: 185
+LINE: 201
+CODE: {{option_value.price_prefix}}{{option_value.price}}
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="{{option_value.product_option_value_id}}"
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="{{ option_value['product_option_value_id'] }}"
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/era/template/product/product.twig
+CODE: {{ option_value['price_prefix'] }}{{ option_value['price'] }}
+NOT FOUND - OPERATION SKIPPED!
+CODE: {{ option_value.price_prefix }}{{ option_value.price }}
+LINE: 207
+LINE: 223
+LINE: 239
+CODE: value="{{ option_value.product_option_value_id }}"
+LINE: 205
+LINE: 219
+LINE: 235
+CODE: {{option_value.price_prefix}}{{option_value.price}}
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="{{option_value.product_option_value_id}}"
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="{{ option_value['product_option_value_id'] }}"
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/hover/template/product/product.twig
+CODE: {{ option_value['price_prefix'] }}{{ option_value['price'] }}
+NOT FOUND - OPERATION SKIPPED!
+CODE: {{ option_value.price_prefix }}{{ option_value.price }}
+LINE: 91
+LINE: 107
+LINE: 123
+CODE: value="{{ option_value.product_option_value_id }}"
+LINE: 89
+LINE: 103
+LINE: 119
+CODE: {{option_value.price_prefix}}{{option_value.price}}
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="{{option_value.product_option_value_id}}"
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="{{ option_value['product_option_value_id'] }}"
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/olive/template/product/product.twig
+CODE: {{ option_value['price_prefix'] }}{{ option_value['price'] }}
+NOT FOUND - OPERATION SKIPPED!
+CODE: {{ option_value.price_prefix }}{{ option_value.price }}
+LINE: 88
+LINE: 106
+LINE: 124
+CODE: value="{{ option_value.product_option_value_id }}"
+LINE: 86
+LINE: 102
+LINE: 120
+CODE: {{option_value.price_prefix}}{{option_value.price}}
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="{{option_value.product_option_value_id}}"
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="{{ option_value['product_option_value_id'] }}"
+NOT FOUND - OPERATION SKIPPED!
+CODE: $data['products'][] = array(
+LINE: 202
+CODE: 'thumb'       => $image,
+LINE: 206
+CODE: $this->load->model('tool/image');
+LINE: 10
+CODE: $data['products'][] = array(
+LINE: 193
+CODE: 'thumb'       => $image,
+LINE: 197
+CODE: $this->load->model('tool/image');
+LINE: 8
+LINE: 65
+CODE: $data['products'][] = array(
+LINE: 120
+CODE: 'thumb'       => $image,
+LINE: 124
+CODE: $this->load->model('tool/image');
+LINE: 8
+CODE: $data['products'][] = array(
+LINE: 230
+CODE: 'thumb'       => $image,
+LINE: 234
+CODE: $this->load->model('tool/image');
+LINE: 10
+CODE: $data['products'][] = array(
+LINE: 52
+CODE: 'thumb'       => $image,
+LINE: 56
+CODE: $this->load->model('tool/image');
+LINE: 8
+CODE: $data['products'][] = array(
+LINE: 59
+CODE: 'thumb'       => $image,
+LINE: 63
+CODE: $this->load->model('tool/image');
+LINE: 8
+CODE: $data['products'][] = array(
+LINE: 59
+CODE: 'thumb'       => $image,
+LINE: 63
+CODE: $this->load->model('tool/image');
+LINE: 8
+CODE: $data['products'][] = array(
+LINE: 59
+CODE: 'thumb'       => $image,
+LINE: 63
+CODE: $this->load->model('tool/image');
+LINE: 8
+
+FILE: catalog/controller/common/home.php
+CODE: public function index() {
+LINE: 60
+CODE: public function index() {
+LINE: 38
+----------------------------------------------------------------
+MOD: Opencart non ftp request
+
+FILE: admin/controller/marketplace/install.php
+CODE: if ($safe) {
+LINE: 165
+CODE: if (is_dir($file) && !is_dir($path)) {
+LINE: 221
+----------------------------------------------------------------
+2021-11-09 4:35:02 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 69
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 77
+LINE: 151
+LINE: 168
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 59
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 67
+LINE: 73
+
+FILE: system/library/template/template.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/twig.php
+CODE: $loader = new \Twig_Loader_Filesystem(DIR_TEMPLATE);
+NOT FOUND - OPERATIONS ABORTED!
+----------------------------------------------------------------
+MOD: Olive theme
+
+FILE: catalog/controller/checkout/cart.php
+CODE: $this->language->get('text_items')
+LINE: 372
+LINE: 471
+
+FILE: catalog/controller/common/cart.php
+CODE: $this->language->get('text_items')
+LINE: 49
+
+FILE: catalog/controller/common/header.php
+CODE: $data['name'] = $this->config->get('config_name');
+LINE: 95
+
+FILE: system/library/cart/cart.php
+CODE: if ($product_discount_query->num_rows) {
+LINE: 182
+CODE: if ($product_special_query->num_rows) {
+LINE: 193
+CODE: if ($product_query->num_rows && ($cart['quantity'] > 0)) {
+LINE: 46
+CODE: if ($option_value_query->row['price_prefix'] == '+') {
+LINE: 61
+LINE: 106
+CODE: $recurring_query = $this->db->query("SELECT
+LINE: 276
+
+FILE: catalog/model/catalog/product.php
+CODE: => $product_option_value['weight'],
+LINE: 358
+
+FILE: catalog/controller/product/product.php
+CODE: $data['options'] = array();
+LINE: 350
+CODE: $product_option_value_data[] = array(
+LINE: 377
+CODE: $product_option_value_data[] = array(
+LINE: 379
+
+FILE: admin/view/template/common/footer.twig
+CODE: {{ text_footer }}
+LINE: 0
+
+FILE: catalog/controller/common/footer.php
+CODE: public function index() {
+LINE: 15
+
+FILE: catalog/controller/product/category.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/product/compare.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+LINE: 359
+
+FILE: catalog/controller/product/search.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/product/special.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/account.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/amazon_login.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/amazon_pay.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/banner.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/bestseller.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/carousel.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/category.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/divido_calculator.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/filter.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/google_hangouts.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/html.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/information.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/klarna_checkout_module.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/latest.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/laybuy_layout.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/paypal_smart_button.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pilibaba_button.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/pp_braintree_button.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/sagepay_direct_cards.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/sagepay_server_cards.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/slideshow.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/special.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/controller/extension/module/store.php
+CODE: $option_price = $this->currency->format
+NOT FOUND - OPERATION SKIPPED!
+CODE: $price = $this->currency->format($this->tax->calculate($option_value['price']
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/default/template/product/product.twig
+CODE: {{ option_value['price_prefix'] }}{{ option_value['price'] }}
+NOT FOUND - OPERATION SKIPPED!
+CODE: {{ option_value.price_prefix }}{{ option_value.price }}
+LINE: 173
+LINE: 189
+LINE: 205
+CODE: value="{{ option_value.product_option_value_id }}"
+LINE: 171
+LINE: 185
+LINE: 201
+CODE: {{option_value.price_prefix}}{{option_value.price}}
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="{{option_value.product_option_value_id}}"
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="{{ option_value['product_option_value_id'] }}"
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/era/template/product/product.twig
+CODE: {{ option_value['price_prefix'] }}{{ option_value['price'] }}
+NOT FOUND - OPERATION SKIPPED!
+CODE: {{ option_value.price_prefix }}{{ option_value.price }}
+LINE: 207
+LINE: 223
+LINE: 239
+CODE: value="{{ option_value.product_option_value_id }}"
+LINE: 205
+LINE: 219
+LINE: 235
+CODE: {{option_value.price_prefix}}{{option_value.price}}
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="{{option_value.product_option_value_id}}"
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="{{ option_value['product_option_value_id'] }}"
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/hover/template/product/product.twig
+CODE: {{ option_value['price_prefix'] }}{{ option_value['price'] }}
+NOT FOUND - OPERATION SKIPPED!
+CODE: {{ option_value.price_prefix }}{{ option_value.price }}
+LINE: 91
+LINE: 107
+LINE: 123
+CODE: value="{{ option_value.product_option_value_id }}"
+LINE: 89
+LINE: 103
+LINE: 119
+CODE: {{option_value.price_prefix}}{{option_value.price}}
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="{{option_value.product_option_value_id}}"
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="{{ option_value['product_option_value_id'] }}"
+NOT FOUND - OPERATION SKIPPED!
+
+FILE: catalog/view/theme/olive/template/product/product.twig
+CODE: {{ option_value['price_prefix'] }}{{ option_value['price'] }}
+NOT FOUND - OPERATION SKIPPED!
+CODE: {{ option_value.price_prefix }}{{ option_value.price }}
+LINE: 88
+LINE: 106
+LINE: 124
+CODE: value="{{ option_value.product_option_value_id }}"
+LINE: 86
+LINE: 102
+LINE: 120
+CODE: {{option_value.price_prefix}}{{option_value.price}}
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="{{option_value.product_option_value_id}}"
+NOT FOUND - OPERATION SKIPPED!
+CODE: value="{{ option_value['product_option_value_id'] }}"
+NOT FOUND - OPERATION SKIPPED!
+CODE: $data['products'][] = array(
+LINE: 202
+CODE: 'thumb'       => $image,
+LINE: 206
+CODE: $this->load->model('tool/image');
+LINE: 10
+CODE: $data['products'][] = array(
+LINE: 193
+CODE: 'thumb'       => $image,
+LINE: 197
+CODE: $this->load->model('tool/image');
+LINE: 8
+LINE: 65
+CODE: $data['products'][] = array(
+LINE: 120
+CODE: 'thumb'       => $image,
+LINE: 124
+CODE: $this->load->model('tool/image');
+LINE: 8
+CODE: $data['products'][] = array(
+LINE: 230
+CODE: 'thumb'       => $image,
+LINE: 234
+CODE: $this->load->model('tool/image');
+LINE: 10
+CODE: $data['products'][] = array(
+LINE: 52
+CODE: 'thumb'       => $image,
+LINE: 56
+CODE: $this->load->model('tool/image');
+LINE: 8
+CODE: $data['products'][] = array(
+LINE: 59
+CODE: 'thumb'       => $image,
+LINE: 63
+CODE: $this->load->model('tool/image');
+LINE: 8
+CODE: $data['products'][] = array(
+LINE: 59
+CODE: 'thumb'       => $image,
+LINE: 63
+CODE: $this->load->model('tool/image');
+LINE: 8
+CODE: $data['products'][] = array(
+LINE: 59
+CODE: 'thumb'       => $image,
+LINE: 63
+CODE: $this->load->model('tool/image');
+LINE: 8
+
+FILE: catalog/controller/common/home.php
+CODE: public function index() {
+LINE: 60
+CODE: public function index() {
+LINE: 38
+----------------------------------------------------------------
+MOD: Opencart non ftp request
+
+FILE: admin/controller/marketplace/install.php
+CODE: if ($safe) {
+LINE: 165
+CODE: if (is_dir($file) && !is_dir($path)) {
+LINE: 221
+----------------------------------------------------------------

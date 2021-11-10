@@ -1,0 +1,10 @@
+2021-10-01 0:29:09 - PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u713383116/domains/ec-test.xyz/public_html/system/library/db/mysqli.php on line 7
+2021-10-01 0:29:09 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/u713383116/domains/ec-test.xyz/public_html/system/library/db/mysqli.php on line 10
+2021-10-01 0:29:09 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/u713383116/domains/ec-test.xyz/public_html/system/library/db/mysqli.php on line 10
+2021-10-01 0:29:09 - PHP Notice:  Undefined variable: mysql in /home/u713383116/domains/ec-test.xyz/public_html/install/controller/install/step_3.php on line 280
+2021-10-01 0:29:09 - PHP Notice:  Trying to get property 'connect_error' of non-object in /home/u713383116/domains/ec-test.xyz/public_html/install/controller/install/step_3.php on line 280
+2021-10-01 0:29:48 - PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/u713383116/domains/ec-test.xyz/public_html/system/library/db/mysqli.php on line 7
+2021-10-01 0:29:48 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/u713383116/domains/ec-test.xyz/public_html/system/library/db/mysqli.php on line 10
+2021-10-01 0:29:48 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/u713383116/domains/ec-test.xyz/public_html/system/library/db/mysqli.php on line 10
+2021-10-01 0:29:48 - PHP Notice:  Undefined variable: mysql in /home/u713383116/domains/ec-test.xyz/public_html/install/controller/install/step_3.php on line 280
+2021-10-01 0:29:48 - PHP Notice:  Trying to get property 'connect_error' of non-object in /home/u713383116/domains/ec-test.xyz/public_html/install/controller/install/step_3.php on line 280

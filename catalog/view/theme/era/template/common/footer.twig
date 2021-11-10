@@ -1,0 +1,112 @@
+<footer>
+  <div class="container">
+    <div class="row">
+      {% if informations %}
+      <div class="col-sm-3">
+        <h5>{{ text_information }}</h5>
+        <ul class="links-vertical">
+         {% for information in informations %}
+          <li><a href="{{ information.href }}">{{ information.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+      <div class="col-sm-3">
+        <h5>{{ text_service }}</h5>
+        <ul class="links-vertical">
+          <li><a href="{{ contact }}">{{ text_contact }}</a></li>
+          <li><a href="{{ return }}">{{ text_return }}</a></li>
+          <li><a href="{{ sitemap }}">{{ text_sitemap }}</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h5>{{ text_extra }}</h5>
+        <ul class="links-vertical">
+          <li><a href="{{ manufacturer }}">{{ text_manufacturer }}</a></li>
+          <li><a href="{{ voucher }}">{{ text_voucher }}</a></li>
+          <li><a href="{{ affiliate }}">{{ text_affiliate }}</a></li>
+          <li><a href="{{ special }}">{{ text_special }}</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-3">
+        <h5>{{ text_account }}</h5>
+        <ul class="links-vertical">
+          <li><a href="{{ account }}">{{ text_account }}</a></li>
+          <li><a href="{{ order }}">{{ text_order }}</a></li>
+          <li><a href="{{ wishlist }}">{{ text_wishlist }}</a></li>
+          <li><a href="{{ newsletter }}">{{ text_newsletter }}</a></li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p><a href="https://www.eraframewok.com">Eraframework.com</a></p>
+  </div>
+</footer>
+<script type="text/javascript" src="catalog/view/javascript/js/jquery.min.js"></script>
+<script type="text/javascript" src="catalog/view/javascript/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="catalog/view/javascript/js/material.min.js"></script>
+<script type="text/javascript" src="catalog/view/javascript/js/nouislider.min.js"></script>
+<script type="text/javascript" src="https://storage.googleapis.com/cdn-era/eraframework.js"></script>
+<script type="text/javascript" src="catalog/view/javascript/js/bootstrap-selectpicker.js"></script>
+<script type="text/javascript" src="catalog/view/javascript/js/bootstrap-datetimepicker.js"></script>
+<script async type="text/javascript" src="catalog/view/javascript/js/moment.min.js"></script>
+<script async type="text/javascript" src="catalog/view/javascript/js/jasny-bootstrap.min.js"></script>
+<script async ype="text/javascript" src="catalog/view/javascript/js/bootstrap-tagsinput.js"></script>
+<script async type="text/javascript">
+
+		$(document).ready(function(){
+			var slider = document.getElementById('sliderRegular');
+
+	        noUiSlider.create(slider, {
+	            start: 40,
+	            connect: [true,false],
+	            range: {
+	                min: 0,
+	                max: 100
+	            }
+	        });
+
+	        var slider2 = document.getElementById('sliderDouble');
+
+	        noUiSlider.create(slider2, {
+	            start: [ 20, 60 ],
+	            connect: true,
+	            range: {
+	                min:  0,
+	                max:  100
+	            }
+	        });
+
+
+
+			materialKit.initFormExtendedDatetimepickers();
+
+		});
+	</script>
+<script type="text/javascript">
+$(document).ready(function () {
+    //Disable full page
+    $("body").on("contextmenu",function(e){
+        return false;
+    });
+    
+    //Disable part of page
+    $("#id").on("contextmenu",function(e){
+        return false;
+    });
+});
+</script>
+  
+
+{% for script in scripts %}
+<script src="{{ script }}" type="text/javascript"></script>
+{% endfor %}
+<!--
+eraframework is a opensource ecommerce framework developed in India by Suraj patil, it takes lots of time and hardwork to provide you a premium functionality. I request you to keep this credit to support us.
+//-->
+Powered By : <div class="copyright"><a href="https://www.kharedi.in" rel="ecommerce" title="best ecommerce store builder">ecommerce website builder</a>  <a href="https://www.kharedi.in" rel="ecommerce" title="Online Store Builder">Online Store Builder</a> </div>
+<!--
+OpenCart is open source software and you are free to remove the powered by OpenCart if you want, but its generally accepted practise to make a small donation.
+Please donate via PayPal to donate@opencart.com
+//-->
+</body></html>

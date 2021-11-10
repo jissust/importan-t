@@ -1,0 +1,26 @@
+<h3 class="title">{{ heading_title }}</h3>
+<div class="row">
+ {% for product in products %}
+  <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                        <div class="text-center">
+                            <div class="product-img"><img src="{{ product.thumb }}" alt="{{ product.name }}" title="{{ product.name }}" class="img-responsive" /></a>
+							 </div>
+                            <div class="product-caption">
+        <h4><a href="{{ product.href }}">{{ product.name }}</a></h4>
+        {% if product.price %}
+        <p class="price">
+          {% if not product.special %}
+          {{ product.price }}
+          {% else %}
+          <span class="price-new">{{ product.special }}</span> <span class="price-old">{{ product.price }}</span>
+          {% endif %}
+          {% if product.tax %}
+          <span class="price-tax">{{ text_tax }} {{ product.tax }}</span>
+          {% endif %}
+        </p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

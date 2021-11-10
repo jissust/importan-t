@@ -1,0 +1,28 @@
+2021-10-01 0:29:09 - PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/u713383116/domains/ec-test.xyz/public_html/system/library/db/mysqli.php on line 7
+2021-10-01 0:29:09 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/u713383116/domains/ec-test.xyz/public_html/system/library/db/mysqli.php on line 10
+2021-10-01 0:29:09 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/u713383116/domains/ec-test.xyz/public_html/system/library/db/mysqli.php on line 10
+2021-10-01 0:29:09 - PHP Notice:  Undefined variable: mysql in /home/u713383116/domains/ec-test.xyz/public_html/install/controller/install/step_3.php on line 280
+2021-10-01 0:29:09 - PHP Notice:  Trying to get property 'connect_error' of non-object in /home/u713383116/domains/ec-test.xyz/public_html/install/controller/install/step_3.php on line 280
+2021-10-01 0:29:48 - PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/u713383116/domains/ec-test.xyz/public_html/system/library/db/mysqli.php on line 7
+2021-10-01 0:29:48 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/u713383116/domains/ec-test.xyz/public_html/system/library/db/mysqli.php on line 10
+2021-10-01 0:29:48 - PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/u713383116/domains/ec-test.xyz/public_html/system/library/db/mysqli.php on line 10
+2021-10-01 0:29:48 - PHP Notice:  Undefined variable: mysql in /home/u713383116/domains/ec-test.xyz/public_html/install/controller/install/step_3.php on line 280
+2021-10-01 0:29:48 - PHP Notice:  Trying to get property 'connect_error' of non-object in /home/u713383116/domains/ec-test.xyz/public_html/install/controller/install/step_3.php on line 280
+2021-10-20 23:37:02 - PHP Notice:  Trying to access array offset on value of type null in /home/u713383116/domains/ec-test.xyz/public_html/admin/controller/marketplace/marketplace.php on line 1011
+2021-10-20 23:37:02 - PHP Notice:  Trying to access array offset on value of type null in /home/u713383116/domains/ec-test.xyz/public_html/admin/controller/marketplace/marketplace.php on line 1013
+2021-10-20 23:38:27 - PHP Notice:  Trying to access array offset on value of type null in /home/u713383116/domains/ec-test.xyz/public_html/admin/controller/marketplace/marketplace.php on line 1011
+2021-10-20 23:38:27 - PHP Notice:  Trying to access array offset on value of type null in /home/u713383116/domains/ec-test.xyz/public_html/admin/controller/marketplace/marketplace.php on line 1013
+2021-10-20 23:39:39 - PHP Notice:  Trying to access array offset on value of type null in /home/u713383116/domains/ec-test.xyz/public_html/admin/controller/marketplace/marketplace.php on line 1011
+2021-10-20 23:39:39 - PHP Notice:  Trying to access array offset on value of type null in /home/u713383116/domains/ec-test.xyz/public_html/admin/controller/marketplace/marketplace.php on line 1013
+2021-10-29 16:33:01 - PHP Warning:  unlink(/home/u713383116/domains/ec-test.xyz/public_html/storage/cache/cache.catalog.language.1635521934): No such file or directory in /home/u713383116/domains/ec-test.xyz/public_html/system/library/cache/file.php on line 17
+2021-11-09 4:11:14 - PHP Warning:  ZipArchive::extractTo(): Invalid or uninitialized Zip object in /home/u713383116/domains/ec-test.xyz/public_html/admin/controller/marketplace/install.php on line 64
+2021-11-09 4:11:14 - PHP Warning:  ZipArchive::close(): Invalid or uninitialized Zip object in /home/u713383116/domains/ec-test.xyz/public_html/admin/controller/marketplace/install.php on line 65
+2021-11-09 4:16:19 - PHP Warning:  ZipArchive::extractTo(): Invalid or uninitialized Zip object in /home/u713383116/domains/ec-test.xyz/public_html/admin/controller/marketplace/install.php on line 64
+2021-11-09 4:16:19 - PHP Warning:  ZipArchive::close(): Invalid or uninitialized Zip object in /home/u713383116/domains/ec-test.xyz/public_html/admin/controller/marketplace/install.php on line 65
+2021-11-10 2:11:34 - PHP Notice:  Trying to access array offset on value of type null in /home/u713383116/domains/ec-test.xyz/public_html/admin/controller/marketplace/marketplace.php on line 1011
+2021-11-10 2:11:34 - PHP Notice:  Trying to access array offset on value of type null in /home/u713383116/domains/ec-test.xyz/public_html/admin/controller/marketplace/marketplace.php on line 1013
+2021-11-10 2:12:07 - PHP Notice:  Trying to access array offset on value of type null in /home/u713383116/domains/ec-test.xyz/public_html/admin/controller/marketplace/marketplace.php on line 1011
+2021-11-10 2:12:07 - PHP Notice:  Trying to access array offset on value of type null in /home/u713383116/domains/ec-test.xyz/public_html/admin/controller/marketplace/marketplace.php on line 1013
+2021-11-10 2:13:14 - PHP Notice:  Trying to access array offset on value of type null in /home/u713383116/domains/ec-test.xyz/public_html/admin/controller/marketplace/marketplace.php on line 1011
+2021-11-10 2:13:14 - PHP Notice:  Trying to access array offset on value of type null in /home/u713383116/domains/ec-test.xyz/public_html/admin/controller/marketplace/marketplace.php on line 1013
+2021-11-10 3:50:51 - PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'u713383116_tienda'@'localhost' (using password: YES) in C:\xampp3\htdocs\dashboard\importan-t\system\library\db\mysqli.php on line 7
