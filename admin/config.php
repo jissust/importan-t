@@ -1,11 +1,11 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'https://localhost/dashboard/importan-t/admin/');
-define('HTTP_CATALOG', 'https://localhost/dashboard/importan-t/');
+define('HTTP_SERVER', 'http://localhost/dashboard/importan-t/admin/');
+define('HTTP_CATALOG', 'http://localhost/dashboard/importan-t/');
 
 // HTTPS
-define('HTTPS_SERVER', 'https://localhost/dashboard/importan-t/');
-define('HTTPS_CATALOG', 'https://localhost/dashboard/importan-t/');
+define('HTTPS_SERVER', 'http://localhost/dashboard/importan-t/admin/');
+define('HTTPS_CATALOG', 'http://localhost/dashboard/importan-t/');
 
 // DIR
 
